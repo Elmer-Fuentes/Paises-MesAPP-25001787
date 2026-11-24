@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Países de Elmer</string>
+    <string name="home_title">Home</string>
+    <string name="home_subtitle">Consulta de países y banderas mediante servicio REST</string>
+    <string name="student_name">Elmer Leonel De La Cruz Fuentes</string>
+    <string name="student_id">Carné: 25001787</string>
+    <string name="load_countries">Cargar</string>
+    <string name="countries_title">Listado de países</string>
+    <string name="loading_countries">Cargando países…</string>
+    <string name="countries_loaded">Países cargados: %1$d</string>
+    <string name="empty_countries">El servicio no devolvió países.</string>
+    <string name="retry">Reintentar</string>
+    <string name="invalid_response">No se pudo leer la respuesta del servicio.</string>
+    <string name="network_error">No se pudo conectar. Comprueba tu conexión e intenta de nuevo.</string>
+    <string name="auth_error">El servicio rechazó el acceso. Verifica la clave de REST Countries.</string>
+    <string name="http_error">El servicio respondió con un error (%1$d). Intenta de nuevo.</string>
+    <string name="country_flag">Bandera de %1$s</string>
+    <string name="flag_description">Bandera del país</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- El mismo tema claro conserva el contraste incluso con modo oscuro del teléfono. -->
+</resources>
