@@ -34,13 +34,13 @@ El proyecto incluye el wrapper de **Gradle 9.6.0**. No es necesario instalar Gra
 
 1. Clonar el repositorio y abrir su carpeta raíz desde Android Studio.
 2. Instalar el SDK 36 desde el SDK Manager y sincronizar el proyecto. Android Studio configura la ruta local del SDK en `local.properties`.
-3. Copiar `secrets.properties.example` como `secrets.properties` y sustituir el valor por una clave propia de REST Countries.
+3. El proyecto incluye una clave de REST Countries en `gradle.properties`, por decisión del propietario. Para usar otra clave, sustituir la propiedad `RESTCOUNTRIES_API_KEY` en ese archivo.
 
 ```properties
 RESTCOUNTRIES_API_KEY=TU_CLAVE_DE_REST_COUNTRIES
 ```
 
-`secrets.properties` y `local.properties` están excluidos de Git. También se puede proporcionar la clave con una variable de entorno `RESTCOUNTRIES_API_KEY` o una propiedad de Gradle del mismo nombre. La prioridad es: propiedad de Gradle, variable de entorno y archivo local.
+`secrets.properties` y `local.properties` están excluidos de Git. Si se elimina la clave compartida de `gradle.properties`, se puede usar una variable de entorno `RESTCOUNTRIES_API_KEY` o copiar `secrets.properties.example` como `secrets.properties`. La prioridad es: propiedad de Gradle, variable de entorno y archivo local.
 
 Sin una clave configurada se utiliza la clave pública de demostración del servicio; sus respuestas son de muestra y no equivalen al listado completo. Consulta la [documentación de REST Countries](https://restcountries.com/docs/countries) para obtener una clave y revisar los límites del servicio.
 
